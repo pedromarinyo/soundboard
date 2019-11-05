@@ -1,20 +1,20 @@
 /*
-	INSTRUCTIONS
-	_____________________________________
+INSTRUCTIONS
+_____________________________________
 
-	Use the functions below to create your unique soundboard. 
-	"type" is a choice between soundType.NOTE, which plays a synth note, or soundType.SAMPLE, which plays a mp3 file.
-	If "type" is set to soundType.NOTE, "source" expects a note in picth-octave notation, i.e., "D#4".
-	If "type" is set to soundType.SAMPLE, "source" expects a file path, i.e., "sounds/victory.mp3".
+Use the functions below to create your unique soundboard. 
+"type" is a choice between soundType.NOTE, which plays a synth note, or soundType.SAMPLE, which plays a mp3 file.
+If "type" is set to soundType.NOTE, "source" expects a note in picth-octave notation, i.e., "D#4".
+If "type" is set to soundType.SAMPLE, "source" expects a file path, i.e., "sounds/victory.mp3".
 
-	Createing a circle:
-	createCircle(type, source, fill, radius, fromLeft, fromTop);
+Createing a circle:
+createCircle(type, source, fill, radius, fromLeft, fromTop);
 
-	Creating a rectangle:
-	createRect(type, source, fill, width, height, fromLeft, fromTop);
+Creating a rectangle:
+createRect(type, source, fill, width, height, fromLeft, fromTop);
 
-	Creating text:
-	createText(text, fill, font (font.BOLD or font.CURSIVE), size, fromLeft, fromTop);	
+Creating text:
+createText(text, fill, font (font.BOLD or font.CURSIVE), size, fromLeft, fromTop);	
  */
 
 
