@@ -27,11 +27,11 @@ createText("My Amazing Soundboard", "#fff", font.BOLD, 42, 300, 80);
 // A light blue circle, plays D3 note
 createCircle(soundType.NOTE, "D3", "#64e1e3", 50, 200, 200);
 
-// A green circle, plays ding sample
+// A green circle, plays ding sample, with label
 createCircle(soundType.SAMPLE, "sounds/correct-ding.mp3", "#b0e364", 70, 300, 300);
 createText("Ding", "#fff", font.CURSIVE, 18, 300, 300);
 
-// A dark blue circle, plays victory sample
+// A dark blue circle, plays victory sample, with label
 createCircle(soundType.SAMPLE, "sounds/victory.mp3", "#235478", 90, 400, 400);
 createText("Victory", "#fff", font.CURSIVE, 18, 400, 400);
 
