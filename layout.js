@@ -25,7 +25,7 @@ createText(text, fill, font (font.BOLD or font.CURSIVE), size, fromLeft, fromTop
 createText("My Amazing Soundboard", "#fff", font.BOLD, 42, 300, 80);
 
 // A light blue circle, plays D3 note
-createCircle(soundType.NOTE, "D4", "#64e1e3", 50, 200, 200);
+createCircle(soundType.NOTE, "D3", "#64e1e3", 50, 200, 200);
 
 // A green circle, plays ding sample
 createCircle(soundType.SAMPLE, "sounds/correct-ding.mp3", "#b0e364", 70, 300, 300);
